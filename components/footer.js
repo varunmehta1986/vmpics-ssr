@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Footer() {
     return <>
         <footer className="footer">
@@ -67,17 +69,17 @@ function Footer() {
                         <tbody>
                             <tr>
                                 <td>
-                                    <a href="/contact" style={{ color: "black" }}>Book an appointment</a>
+                                    <Link href="/contact" style={{ color: "black" }}>Book an appointment</Link>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <a href="/investment" style={{ color: "black" }}>Pricing</a>
+                                    <Link href="/investment" style={{ color: "black" }}>Pricing</Link>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <a href="/investment" style={{ color: "black" }}>E-Gift Gards</a>
+                                    <Link href="/investment" style={{ color: "black" }}>E-Gift Cards</Link>
                                 </td>
                             </tr>
                         </tbody>
