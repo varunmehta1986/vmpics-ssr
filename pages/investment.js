@@ -52,7 +52,12 @@ function Investment() {
                 <div className="row no-gutters">
                     <div className="col-md-4">
                         <div className="text-center img-fluid pricingcard">
-                            {/* <Card.Img src={require("../images/family2.jpg")} style={{ maxWidth: '395px' }} alt="maternity photo" /> */}
+                            <Image src={"/images/family2.jpg"}
+                                className="rounded"
+                                alt="family-photo-session"
+                                width={600}
+                                height={400} />
+
                             <Nav.Link className="btn" style={{ width: "140px" }} href="/clientgallery">View Gallery</Nav.Link>
                         </div>
                     </div>
@@ -89,7 +94,12 @@ function Investment() {
                 <div className="row no-gutters">
                     <div className="col-md-4">
                         <div className="text-center img-fluid pricingcard">
-                            {/* <Card.Img src={require("../images/gold plus.jpg")} style={{ maxWidth: '395px' }} alt="Gold plus" /> */}
+                            <Image src={"/images/gold plus.jpg"}
+                                className="rounded"
+                                alt="maternity-photo-session-goldplus"
+                                width={600}
+                                height={400} />
+
                             <Nav.Link className="btn" style={{ width: "140px" }} href="/clientgallery">View Gallery</Nav.Link>
                         </div>
                     </div>
@@ -126,6 +136,13 @@ function Investment() {
                     <div className="col-md-4">
                         <div className="text-center img-fluid pricingcard">
                             {/* <Card.Img src={require("../images/maternity.jpg")} style={{ maxWidth: '395px' }} alt="platinum" /> */}
+
+                            <Image src={"/images/maternity.jpg"}
+                                className="rounded"
+                                alt="maternity-family-photo-session-platinum"
+                                width={600}
+                                height={400} />
+
                             <Nav.Link className="btn" style={{ width: "140px" }} href="/clientgallery">View Gallery</Nav.Link>
                         </div>
                     </div>
@@ -162,7 +179,13 @@ function Investment() {
                 <div className="row no-gutters">
                     <div className="col-md-4">
                         <div className="text-center img-fluid pricingcard">
-                            {/* <Card.Img src={require("../images/platinum plus.jpg")} style={{ maxWidth: '395px' }} alt="platinum plus" /> */}
+
+                            <Image src={"/images/platinum plus.jpg"}
+                                className="rounded"
+                                alt="maternity-family-photo-session-platinum-plus"
+                                width={600}
+                                height={400} />
+
                             <Nav.Link className="btn" style={{ width: "140px" }} href="/clientgallery">View Gallery</Nav.Link>
                         </div>
                     </div>
