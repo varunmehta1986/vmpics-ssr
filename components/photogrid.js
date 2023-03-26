@@ -113,7 +113,18 @@ function Photogrid() {
 
     ];
 
-    return <Gallery photos={photos} />
+    return <Gallery photos={shufflePhotos()} />
+
+    function shufflePhotos() {
+
+        for (let i = photos.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            const temp = photos[i];
+            photos[i] = photos[j];
+            photos[j] = temp;
+        }
+        return photos;
+    }
 }
 
 export default Photogrid;

@@ -1,5 +1,6 @@
 import { Col, Row, Container } from "react-bootstrap";
 import Image from "next/image";
+import ReadyToEnquire from "@/components/readytoenquire";
 
 function Testimonials() {
     return <div>
@@ -147,6 +148,7 @@ function Testimonials() {
                 <br />
             </div>
         </Container>
+        <ReadyToEnquire />
     </div>
 }
 

@@ -7,7 +7,8 @@ html {
 
 .footer {
   bottom: 0;
-  width: 100%;
+
+  width: 99%;
   /* Set the fixed height of the footer here */
   min-height: 200px;
   line-height: 25px;

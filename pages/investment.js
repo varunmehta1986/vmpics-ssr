@@ -8,22 +8,22 @@ function Investment() {
         <h3>INVESTMENT</h3>
         <p>Your investment for lifetime memories.</p>
         <div className="row">
-            <div className="card mb-3" style={{ maxWidth: '700px' }}>
-                <div className="row no-gutters">
+            <div className="card mb-3 p-0" style={{ maxWidth: '700px' }}>
+                <div className="row g-0">
                     <div className="col-md-4">
                         <div className="text-center img-fluid pricingcard">
                             <Image src={"/images/potrait.jpg"}
                                 className="rounded"
                                 alt="potrait-photography"
-                                width={600}
+                                width={300}
                                 height={400} />
                             <Nav.Link className="btn" style={{ width: "140px" }} href="/clientgallery"> View Gallery</Nav.Link>
                         </div>
                     </div>
                     <div className="col-md-8">
-                        <Card.Body>
-                            <Card.Title>POTRAITS</Card.Title>
-                            <Card.Text>
+                        <div className='card-body'>
+                            <h5 className='card-title'>POTRAITS</h5>
+                            <p class="card-text">
                                 - Price : $200 <br />
                                 - Session Duration : 30 minutes<br />
                                 - Personalized client gallery to view photos<br />
@@ -33,9 +33,9 @@ function Investment() {
                                 <br />
                                 <br />
                                 <br />
-                            </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
+                            </p>
+                        </div>
+                        <div className="card-footer">
                             <Nav.Link className="btn btn-dark"
                                 style={{
                                     margin: "1px", display: "inline-block",
@@ -44,12 +44,12 @@ function Investment() {
                                 href="/contact">Book a session</Nav.Link>
                             <Button variant="secondary"
                                 href="https://squareup.com/gift/MLPPHA53H007N/order">Gift this to someone!</Button>
-                        </Card.Footer>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div className="card mb-3" style={{ maxWidth: '700px' }}>
-                <div className="row no-gutters">
+            <div className="card mb-3 p-0" style={{ maxWidth: '700px' }}>
+                <div className="row g-0">
                     <div className="col-md-4">
                         <div className="text-center img-fluid pricingcard">
                             <Image src={"/images/family2.jpg"}
@@ -90,8 +90,8 @@ function Investment() {
                     </div>
                 </div>
             </div>
-            <div className="card mb-3" style={{ maxWidth: '700px' }}>
-                <div className="row no-gutters">
+            <div className="card mb-3 p-0" style={{ maxWidth: '700px' }}>
+                <div className="row g-0">
                     <div className="col-md-4">
                         <div className="text-center img-fluid pricingcard">
                             <Image src={"/images/gold plus.jpg"}
@@ -131,8 +131,8 @@ function Investment() {
                     </div>
                 </div>
             </div>
-            <div className="card mb-3" style={{ maxWidth: '700px' }}>
-                <div className="row no-gutters">
+            <div className="card mb-3 p-0" style={{ maxWidth: '700px' }}>
+                <div className="row g-0">
                     <div className="col-md-4">
                         <div className="text-center img-fluid pricingcard">
                             {/* <Card.Img src={require("../images/maternity.jpg")} style={{ maxWidth: '395px' }} alt="platinum" /> */}
@@ -175,8 +175,8 @@ function Investment() {
                     </div>
                 </div>
             </div>
-            <div className="card mb-3" style={{ maxWidth: '700px' }}>
-                <div className="row no-gutters">
+            <div className="card mb-3 p-0" style={{ maxWidth: '700px' }}>
+                <div className="row g-0">
                     <div className="col-md-4">
                         <div className="text-center img-fluid pricingcard">
 
