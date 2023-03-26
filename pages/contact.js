@@ -2,6 +2,7 @@ import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button';
 import React, { useState } from "react";
+import Head from 'next/head';
 
 function Contact() {
     const [name, setName] = useState('');
@@ -44,6 +45,12 @@ function Contact() {
 
     return (
         <div>
+            <Head>
+                <title>
+                    VMPics Photographer - Appointment Booking
+                </title>
+                <meta name="description" content="VMPics Photographer - Appointment Booking"></meta>
+            </Head>
             <Modal show={showSuccess} onHide={onModalClose}>
                 <Modal.Header closeButton>
                     <Modal.Title>Booking Request Received</Modal.Title>
