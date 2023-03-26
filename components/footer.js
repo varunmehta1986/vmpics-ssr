@@ -51,7 +51,7 @@ function Footer() {
                         <tbody>
                             <tr>
                                 <td>
-                                    <a href="/clientgallery" style={{ color: "black" }}>Client Galleries</a>
+                                    <Link href="/clientgallery" style={{ color: "black" }}>Client Galleries</Link>
                                 </td>
                             </tr>
                         </tbody>
