@@ -8,16 +8,16 @@ function Testimonials() {
             <br />
             <div>
                 <Row>
-                    <Col sm-12 md-6 lg-6 className="reviewTextRightAlign" >Varun was absolute delight to work with,
+                    <Col sm="12" lg="6" md="6" className="reviewTextRightAlign" >Varun was absolute delight to work with,
                         he knew exactly what we wanted and captured our family moments with his lenses.
                         He is a very talented photographer and I would highly recommend him.<br /><br />
 
                         <div> - SHIWANEE GAUTAM</div></Col>
 
-                    <Col sm-12 md-6 lg-6>
+                    <Col sm="12" lg="6" md="6">
                         <Image src="/images/reviews/review6.jpg"
                             alt="feedback-from-shiwanee-gautam-for-family-shoot"
-                            className="reviewImg"
+                            className="reviewImg rounded"
                             width={200}
                             height={160}
                             sizes="(max-width: 768px) 100vw,
@@ -31,10 +31,10 @@ function Testimonials() {
                 <br />
                 <br />
                 <Row>
-                    <Col sm-12 md-6 lg-6>
+                    <Col sm="12" lg="6" md="6">
                         <Image src="/images/reviews/review5.jpg"
                             alt="feedback-from-aanchal-prateek-for-maternity-shoot"
-                            className="reviewImg"
+                            className="reviewImg rounded"
                             width={200}
                             height={160}
                             sizes="(max-width: 768px) 100vw,
@@ -43,7 +43,7 @@ function Testimonials() {
                             style={{ height: '100%', width: '100%' }} //The point is right there!
                         />
                     </Col>
-                    <Col sm-12 md-6 lg-6 className="reviewTextLeftAlign" > Highy recommended.
+                    <Col sm="12" lg="6" md="6" className="reviewTextLeftAlign" > Highy recommended.
                         We narrowed down VM pics (Varun) after going through lots of available options out there and
                         he also came through as a reference from our close family friend.
                         It was not the reference but his variety of work, the natural pictures he had on his profile
@@ -61,7 +61,7 @@ function Testimonials() {
                 <br />
                 <br />
                 <Row>
-                    <Col sm-12 md-6 lg-6 className="reviewTextRightAlign" >We recently had a newborn baby and were looking for a good
+                    <Col sm="12" lg="6" md="6" className="reviewTextRightAlign" >We recently had a newborn baby and were looking for a good
                         and reasonably priced photographer to capture some family photos.
                         We contacted Varun who did a wonderful job and captured some beautiful shots for us.
                         He was at the decided place on time and was very patient and accommodating.
@@ -70,11 +70,11 @@ function Testimonials() {
 
                         <div> - TEJAL & BIPLAV</div></Col>
 
-                    <Col sm-12 md-6 lg-6>
+                    <Col sm="12" lg="6" md="6">
                         <Image src='/images/reviews/review1.jpg'
                             width="480"
                             height="360"
-                            className="w-full h-auto reviewImg"
+                            className="w-full h-auto reviewImg rounded"
                             alt="Family shoot testimonial 1" />
                     </Col>
                 </Row>
@@ -82,14 +82,14 @@ function Testimonials() {
                 <br />
                 <br />
                 <Row>
-                    <Col sm-12 md-6 lg-6>
+                    <Col sm="12" lg="6" md="6">
                         <Image src='/images/reviews/review2.jpg'
                             width="480"
                             height="360"
-                            className="w-full h-auto reviewImg"
+                            className="w-full h-auto reviewImg rounded"
                             alt="Family shoot testimonial 1" />
                     </Col>
-                    <Col sm-12 md-6 lg-6 className="reviewTextLeftAlign" > Highy recommended.
+                    <Col sm="12" lg="6" md="6" className="reviewTextLeftAlign" > Highy recommended.
                         Time Management and Affordable!
                         photographer was patient with my kids and was on to it with his shots! photos turned out amazing despite
                         the hot day we eventually got there with all my kids.
@@ -102,18 +102,18 @@ function Testimonials() {
                 <br />
                 <br />
                 <Row>
-                    <Col sm-12 md-6 lg-6 className="reviewTextRightAlign" >Thankyou for catching our family memories.
+                    <Col sm="12" lg="6" md="6" className="reviewTextRightAlign" >Thankyou for catching our family memories.
                         The photos turned out beautifully. You were also very patience with our kids,
                         thank you and we highly recommend you. <br /><br />
 
                         <div> - KELLIE TO OIZUMI</div></Col>
 
-                    <Col sm-12 md-6 lg-6>
+                    <Col sm="12" lg="6" md="6">
                         <Image src="/images/reviews/review3.jpg"
                             alt="feedback-from-shiwanee-gautam-for-family-shoot"
                             width="480"
                             height="360"
-                            className="w-full h-auto reviewImg"
+                            className="w-full h-auto reviewImg rounded"
                         />
                     </Col>
                 </Row>
@@ -121,17 +121,17 @@ function Testimonials() {
                 <br />
                 <br />
                 <Row>
-                    <Col sm-12 md-12 lg-6>
+                    <Col sm="12" lg="6" md="6">
                         <div>
                             <Image src="/images/reviews/review4.jpg"
                                 alt="feedback-from-shiwanee-gautam-for-family-shoot"
                                 width="480"
                                 height="360"
-                                className="w-full h-auto reviewImg"
+                                className="w-full h-auto reviewImg rounded"
                             />
                         </div>
                     </Col>
-                    <Col sm-12 md-12 lg-6 className="reviewTextLeftAlign">
+                    <Col sm="12" md="12" lg="6" className="reviewTextLeftAlign">
                         We booked Varun for our maternity Photoshoot.
                         He understands clients comfort and their preference. He made our shoot not some 60 min time slot but
                         a wonderfull and memorable experience.
