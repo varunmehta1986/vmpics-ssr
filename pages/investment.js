@@ -2,9 +2,16 @@ import Nav from 'react-bootstrap/Nav'
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Image from 'next/image';
+import Head from 'next/head';
 
 function Investment() {
     return <div className="container">
+        <Head>
+            <title>
+                Packages
+            </title>
+            <meta name="description" content="Photography packages for your family shoots"></meta>
+        </Head>
         <h3>INVESTMENT</h3>
         <p>Your investment for lifetime memories.</p>
         <div className="row">
