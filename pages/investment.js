@@ -8,7 +8,7 @@ function Investment() {
     return <div className="container">
         <Head>
             <title>
-                Packages
+                VMPics photography Packages
             </title>
             <meta name="description" content="Photography packages for your family shoots"></meta>
         </Head>

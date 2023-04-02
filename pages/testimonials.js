@@ -1,9 +1,17 @@
 import { Col, Row, Container } from "react-bootstrap";
 import Image from "next/image";
 import ReadyToEnquire from "@/components/readytoenquire";
+import Head from "next/head";
 
 function Testimonials() {
     return <div>
+        <Head>
+            <title>
+                VMPics Photography - Client testimonials
+            </title>
+            <meta name="description" content="VMPics Photography - Client testimonials"></meta>
+        </Head>
+
         <Container>
             <center><h3>ALL THE LOVE FROM OUR <br></br>AWESOME CLIENTS </ h3></center> <br />
             <br />

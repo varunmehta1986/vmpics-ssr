@@ -1,7 +1,14 @@
 import ReadyToEnquire from "@/components/readytoenquire";
+import Head from "next/head";
 
 function Faqs() {
     return <div>
+        <Head>
+            <title>
+                VMPics Photography - Frequently asked questions
+            </title>
+            <meta name="description" content="VMPics Photographer - Frequently asked questions"></meta>
+        </Head>
         <div className="container text-left">
             <h3>FREQUENTLY ASKED QUESTIONS</h3>
             <br />
