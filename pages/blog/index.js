@@ -26,7 +26,8 @@ function Blog() {
             </div>
 
             <a href="https://gallery.vmpics.com.au/Py0k9jMYQF3BL">Nida&apos;s Maternity Shoot</a> <br />
-            <a href="https://gallery.vmpics.com.au/7WGoulhzDv9zV">Vihana&apos;s First One</a>
+            <a href="https://gallery.vmpics.com.au/7WGoulhzDv9zV">Vihana&apos;s First One</a><br />
+            <a href="https://gallery.vmpics.com.au/8qa0nXi3Xzfon">Twin Brothers Turn Nine</a>
         </div>
     </div>
 }
