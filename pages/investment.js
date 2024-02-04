@@ -72,11 +72,11 @@ function Investment() {
                         <Card.Body>
                             <Card.Title>VMPics Digital</Card.Title>
                             <Card.Text>
-                                - Price : $300 <br />
+                                - Price : $350 <br />
                                 - Session Duration : 60 minutes<br />
                                 - Personalized client gallery to view photos<br />
-                                - Included digital edited images : 20<br />
-                                - 10-14 days of turn-around time<br />
+                                - Included digital edited images : 25<br />
+                                - 14 days of turn-around time<br />
                                 - Extra photos for $20 each<br />
                                 <br />
                                 <br />
@@ -114,12 +114,12 @@ function Investment() {
                         <Card.Body>
                             <Card.Title>VMPics Digital+ (Most recommended)</Card.Title>
                             <Card.Text>
-                                - Price : $400 <br />
+                                - Price : $450 <br />
                                 - Session Duration : 60 minutes<br />
                                 - Personalized client gallery to view photos<br />
-                                - Included digital edited images : 25<br />
+                                - Included digital edited images : 30<br />
                                 - $50 Shop credit included<br />
-                                - 10-14 days of turn-around time<br />
+                                - 14 days of turn-around time<br />
                                 - Extra photos for $20 each<br />
                                 <br />
                                 <br />
@@ -161,7 +161,7 @@ function Investment() {
                                 - Session Duration : 75 minutes <br />
                                 - Personalized client gallery to view photos<br />
                                 - Included digital edited images : Complete gallery<br />
-                                - 10-14 days of turn-around time<br />
+                                - 14 days of turn-around time<br />
                                 <br />
                                 <br />
                                 <br />
@@ -200,12 +200,12 @@ function Investment() {
                         <Card.Body>
                             <Card.Title>VMPics Max+(Best value)</Card.Title>
                             <Card.Text>
-                                - Price : $650 <br />
+                                - Price : $670 <br />
                                 - Session Duration : 75 minutes<br />
                                 - $100 Shop credit included<br />
                                 - Personalized client gallery to view photos<br />
                                 - Included digital edited images : Complete gallery<br />
-                                - 10-14 days of turn-around time for the digitals<br />
+                                - 14 days of turn-around time for the digitals<br />
                                 <br />
                                 <br />
                                 <br />
