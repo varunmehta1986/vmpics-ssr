@@ -16,7 +16,7 @@ function Faqs() {
                 <li>
                     <h5>Where are you located? </h5>
                     <p>
-                        I am located in North Kellyville, NSW
+                        I am located in Box Hill, NSW
                     </p>
                 </li>
                 <li>
