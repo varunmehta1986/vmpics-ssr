@@ -25,7 +25,9 @@ function About() {
                             target='_blank'>this article</a></p>
                 </Col>
                 <Col md="6" lg="6" sm="12">
-                    <Image src="/images/aboutme.jpg" alt="about me" className="aboutmeImg" width="450" height="525" ></Image>
+                    <div style={{ borderRadius: '15px', overflow: 'hidden', width: '350px' }} >
+                        <Image src="/images/aboutme2206.jpg" alt="about me" className="aboutmeImg" width="400"></Image>
+                    </div>
                 </Col>
             </Row>
         </Container>

@@ -110,13 +110,18 @@ function Photogrid() {
             height: 2,
             alt: "Parents-to-be-during-golden-hour-at-rouse-hill-regional-park"
         },
+        {
+            src: "/images/Carousel/Pregnant mum looking at hubby.jpg",
+            width: 2,
+            height: 3,
+            alt: " Pregnant-mum-looking-at-hubby"
+        },
 
     ];
 
     return <Gallery photos={shufflePhotos()} />
 
     function shufflePhotos() {
-
         for (let i = photos.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             const temp = photos[i];
