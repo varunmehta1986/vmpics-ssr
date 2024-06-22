@@ -114,9 +114,20 @@ function Photogrid() {
             src: "/images/Carousel/Pregnant mum looking at hubby.jpg",
             width: 2,
             height: 3,
-            alt: " Pregnant-mum-looking-at-hubby"
+            alt: "Pregnant-mum-looking-at-hubby"
         },
-
+        {
+            src: "/images/Carousel/Couple holding each other sub in the back.jpg",
+            width: 2,
+            height: 3,
+            alt: "Couple-holding-each-other-sub-in-the-back"
+        },
+        {
+            src: "/images/Carousel/To be parents walking.jpg",
+            width: 3,
+            height: 2,
+            alt: "To-be-parents-walking"
+        }
     ];
 
     return <Gallery photos={shufflePhotos()} />
