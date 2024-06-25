@@ -130,7 +130,7 @@ function Photogrid() {
         }
     ];
 
-    return <Gallery photos={shufflePhotos()} />
+    return <Gallery photos={shufflePhotos().slice(0, 18)} />
 
     function shufflePhotos() {
         for (let i = photos.length - 1; i > 0; i--) {

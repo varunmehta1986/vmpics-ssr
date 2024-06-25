@@ -17,6 +17,54 @@ function Testimonials() {
             <br />
             <div>
                 <Row>
+                    <Col sm="12" lg="6" md="6" className="reviewTextRightAlign" >We recently used Varun&aposs skills for our Gender Reveal Party.
+                        He is such an amazing person with immense talent in photography. He covered all aspects of our event and pictures turned out very graceful.
+                        All of our friends liked the pictures clicked by Varun and will definitely recommend his services to others.
+                        Keep it up and Thanks for clicking the memories which we can cherish for life.<br /><br />
+
+                        <div> - SAMRITI & VARUN</div></Col>
+
+                    <Col sm="12" lg="6" md="6">
+                        <Image src="/images/reviews/samriti-varun.jpg"
+                            alt="feedback-from-samriti-varun-maternity-shoot"
+                            className="reviewImg rounded"
+                            width={200}
+                            height={160}
+                            sizes="(max-width: 768px) 100vw,
+                                (max-width: 1200px) 50vw,
+                                33vw"
+                            style={{ height: '100%', width: '100%' }} //The point is right there!
+                        />
+                    </Col>
+                </Row>
+                <br />
+                <br />
+                <br />
+                <Row>
+                    <Col sm="12" lg="6" md="6">
+                        <Image src="/images/reviews/aman-nikhil.jpg"
+                            alt="feedback-from-aman-nikhil-maternity-shoot"
+                            className="reviewImg rounded"
+                            width={200}
+                            height={160}
+                            sizes="(max-width: 768px) 100vw,
+                                (max-width: 1200px) 50vw,
+                                33vw"
+                            style={{ height: '100%', width: '100%' }} //The point is right there!
+                        />
+                    </Col>
+                    <Col sm="12" lg="6" md="6" className="reviewTextLeftAlign" > Hey Varun, Thank you for the beautiful captures and lovely edits. From your way of explaining each and every pose, your attention to every minute details to make pictures look prefect, your patience, to giving comfort and care to your clients, we are impressed by everything. We had wonderful experience, fun and laughter with you during the shoot.
+                        Would definitely recommend VMPics Photography to every couple who are looking for uniqueness to capture their beautiful journey even in more special way.
+                        Thank you once again
+                        <br /><br />
+
+                        <div> - AMAN & NIKHIL </div>
+                    </Col>
+                </Row>
+                <br />
+                <br />
+                <br />
+                <Row>
                     <Col sm="12" lg="6" md="6" className="reviewTextRightAlign" >Varun was absolute delight to work with,
                         he knew exactly what we wanted and captured our family moments with his lenses.
                         He is a very talented photographer and I would highly recommend him.<br /><br />
