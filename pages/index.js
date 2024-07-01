@@ -6,7 +6,7 @@ import Head from "next/head";
 function Home() {
     return <>
         <Head>
-            <title>Welcome to VMPics Photography. </title>
+            <title>VMPics Photography at Box Hill, Hills District</title>
             <meta
                 name="description"
                 key="desc"
