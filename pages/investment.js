@@ -137,9 +137,9 @@ function Investment() {
             <div className="col-md-4">
               <div className="text-center img-fluid pricingcard">
                 <Image
-                  src={"/images/gold plus.jpg"}
+                  src={"/images/packages-vmpics-gold-plus.jpg"}
                   className="rounded"
-                  alt="maternity-photo-session-goldplus"
+                  alt="packages-vmpics-session-goldplus"
                   width={600}
                   height={400}
                 />
@@ -199,9 +199,9 @@ function Investment() {
                 {/* <Card.Img src={require("../images/maternity.jpg")} style={{ maxWidth: '395px' }} alt="platinum" /> */}
 
                 <Image
-                  src={"/images/maternity.jpg"}
+                  src={"/images/packages-vmpics-max.jpg"}
                   className="rounded"
-                  alt="maternity-family-photo-session-platinum"
+                  alt="packages-vmpics-max"
                   width={600}
                   height={400}
                 />
