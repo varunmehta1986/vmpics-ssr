@@ -4,7 +4,7 @@ import Header from '@/components/header'
 import Footer from '@/components/footer'
 import Script from 'next/script';
 import { GoogleAnalytics } from "nextjs-google-analytics";
-
+import "animate.css/animate.compat.css"
 export default function App({ Component, pageProps }) {
   return (
     <>
