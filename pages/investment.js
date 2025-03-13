@@ -22,7 +22,7 @@ function Investment() {
             <div className="col-md-4">
               <div className="text-center img-fluid pricingcard">
                 <Image
-                  src={"/images/potrait.jpg"}
+                  src={"/images/packages-vmpics-mini.jpg"}
                   className="rounded"
                   alt="potrait-photography"
                   width={300}
