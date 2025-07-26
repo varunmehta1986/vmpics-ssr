@@ -227,7 +227,7 @@ function Testimonials() {
           <div>
             <Row>
               <Col sm="12" lg="6" md="6" className="reviewTextRightAlign">
-                Thankyou for catching our family memories. The photos turned out
+                Thank you for catching our family memories. The photos turned out
                 beautifully. You were also very patience with our kids, thank
                 you and we highly recommend you. <br />
                 <br />

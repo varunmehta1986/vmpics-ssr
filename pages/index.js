@@ -2,6 +2,7 @@ import Photogrid from "@/components/photogrid"
 import About from "@/components/about"
 import ReadyToEnquire from "@/components/readytoenquire";
 import Head from "next/head";
+import TestimonialsMarquee from "@/components/TestimonialsMarquee";
 
 function Home() {
     return <>
@@ -16,6 +17,7 @@ function Home() {
         </Head>
         <Photogrid />
         <About />
+        <TestimonialsMarquee />
         <ReadyToEnquire />
     </>
 }

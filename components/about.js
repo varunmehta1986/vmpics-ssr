@@ -26,7 +26,7 @@ function About() {
                 </Col>
                 <Col md="6" lg="6" sm="12">
                     <div style={{ borderRadius: '15px', overflow: 'hidden', width: '350px' }} >
-                        <Image src="/images/aboutme2206.jpg" alt="about me" className="aboutmeImg" width="400"></Image>
+                        <Image src="/images/aboutme2206.jpg" alt="about me" className="aboutmeImg" width="400" height="600"></Image>
                     </div>
                 </Col>
             </Row>
